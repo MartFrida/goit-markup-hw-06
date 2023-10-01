@@ -1,0 +1,45 @@
+:root {
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --OCEAN: #404BBF;
+    --SLATE: #434455;
+    --WHITE: #FFFFFF;
+    --GREEN: #31D0AA;
+    --LIGHT-SLATE: #8E8F99;
+    --NAVY-BLUE-MODAL: #abacb3;
+    --GREY: #6d6d7b;
+    --DAIRY: #FCFCFC;
+
+    --font-main: 'Roboto', sans-serif;
+
+    --gap: 32px;
+    --items: 4;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--SLATE);
+    background-color: var(--WHITE);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.grid-item {
+    flex-basis: calc((100% - var(--gap) * (var(--items) - 1)) / var(--items));
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
