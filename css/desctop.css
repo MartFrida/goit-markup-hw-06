@@ -126,4 +126,21 @@
   .icon-social {
     fill: var(--CLOUD);
   }
+
+  /* section 5 Customers  */
+  .customers {
+    margin: 0;
+    padding: 120px 0;
+    width: 1128px;
+  }
+
+  .list-customers {
+        gap: 24px;
+  }
+
+  .item-customers {
+    width: calc((100% - 120px) / 6);
+     }
+
+  
 }

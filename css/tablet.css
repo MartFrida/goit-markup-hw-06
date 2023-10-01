@@ -22,7 +22,21 @@
   .item-section-second {
     flex-basis: calc((100% - 24px) / 2);
   }
+
   .section-second .header-card {
     text-align: left;
+  }
+
+  /* section 5 Customers  */
+  .customers {
+    width: 552px;
+  }
+
+  .list-customers {
+    gap: 24px;
+  }
+
+  .item-customers {
+    width: calc((100% - 24px) / 3);
   }
 }
