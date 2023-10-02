@@ -1,9 +1,7 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  padding: 0 15px;
 }
 
 /* header */
@@ -15,6 +13,8 @@
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
 }
 
 /* NAV */
@@ -51,6 +51,7 @@ header .logo-second {
   background-color: transparent;
   width: 28px;
   height: 28px;
+  border: none;
 }
 
 .header-burger {
@@ -79,15 +80,13 @@ header .logo-second {
   text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
-  width: 320px;
+  max-width: 496px;
 }
 
 .hero-btn {
-  display: inline-flex;
+  display: block;
   margin: 36px auto 0;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border: none;
   border-radius: 4px;
   background: var(--IRIS, #4D5AE5);
@@ -98,9 +97,6 @@ header .logo-second {
 /* section 2 */
 .section-second {
   padding: 96px 0;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 72px;
 
 }
@@ -138,6 +134,7 @@ header .logo-second {
   color: var(--NAVY-BLUE);
   /* align-self: stretch; */
   text-align: center;
+  font-size: 36px;
 }
 
 /* section 3 */
@@ -149,12 +146,10 @@ header .logo-second {
 .section-team {
   background-color: var(--CLOUD);
   padding: 96px 0;
-  width: 428px;
 }
 
 .header-team {
   margin: 0 auto 72px;
-
 }
 
 .section-team .list-team {
@@ -162,6 +157,7 @@ header .logo-second {
   justify-content: center;
   gap: 72px;
 }
+
 
 .item-team-card {
   background-color: var(--WHITE);
@@ -187,7 +183,8 @@ header .logo-second {
   margin-bottom: 8px;
 }
 
-.text-employee {
+.text-employee,
+.header-employee {
   text-align: center;
 }
 
@@ -226,7 +223,7 @@ header .logo-second {
 /* section 5 Customers  */
 .customers {
   margin: 96px 16px;
-  width: 396px;
+  /* width: 396px; */
   flex-shrink: 0;
 }
 
@@ -263,4 +260,136 @@ header .logo-second {
 
 .icon-customers {
   fill: currentColor;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--NAVY-BLUE);
+  padding: 96px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .logo {
+  margin: 0 auto 17px;
+}
+
+.footer-slogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-footer {
+  display: inline-block;
+
+}
+
+.text-footer {
+  line-height: 1.5;
+  color: var(--WHITE);
+  letter-spacing: 0.02em;
+  /* max-width: 264px; */
+}
+
+.logo-second {
+  color: var(--CLOUD);
+}
+
+.wrap-footer-social {
+  margin: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-footer-social,
+.text-subscriber {
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--WHITE);
+
+}
+
+.list-footer-social {
+  gap: 16px;
+}
+
+.item-footer-social {
+  width: 40px;
+  height: 40px;
+}
+
+.link-footer-social {
+  width: 100%;
+  height: 100%;
+  background-color: var(--IRIS);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-footer-social:hover,
+.link-footer-social:focus {
+  background-color: var(--GREEN);
+}
+
+.icon-footer-social {
+  fill: var(--CLOUD);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Footer form */
+
+.footer-subscriber-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-name {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--WHITE)
+}
+
+.user-name::placeholder {
+  color: var(--WHITE);
+}
+
+.btn-subscribe {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 16px auto 0;
+}
+
+.icon-subscribe {
+  margin-left: 16px;
+  fill: var(--WHITE);
+}
+
+
+@media screen and (min-width:428px) {
+  .container {
+    max-width: 428px;
+  }
 }
