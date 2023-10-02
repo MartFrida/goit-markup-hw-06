@@ -4,6 +4,10 @@
   }
 
   /* header */
+
+  .header-container{
+    padding-right: 16px;
+  }
   .menu-toggle {
     display: none;
   }
@@ -53,21 +57,27 @@
   }
 
   .adr {
+    display: flex;
     font-style: normal;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
     margin-left: auto;
   }
 
+  .list.list-address {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
   .item-address {
     display: flex;
-    gap: 40px;
   }
 
   .link-address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 14px;
   }
 
   .link-address:hover,
@@ -75,9 +85,6 @@
     color: var(--OCEAN);
   }
 
-  .list-address {
-    gap: 40px;
-  }
 
   address a {
     color: var(--SLATE);

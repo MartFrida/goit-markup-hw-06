@@ -58,8 +58,6 @@ header .logo-second {
   stroke: #111;
 }
 
-
-
 /* section 1 Hero*/
 .hero {
   background-color: var(--NAVY-BLUE);
@@ -274,31 +272,29 @@ header .logo-second {
   flex-direction: column;
 }
 
-.footer .logo {
-  margin: 0 auto 17px;
-}
-
 .footer-slogo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.footer .logo {
+  margin: 0 auto 17px;
+}
+
+.logo-second {
+  color: var(--CLOUD);
+}
+
 .link-footer {
   display: inline-block;
-
 }
 
 .text-footer {
   line-height: 1.5;
   color: var(--WHITE);
   letter-spacing: 0.02em;
-  /* max-width: 264px; */
-}
-
-.logo-second {
-  color: var(--CLOUD);
-}
+ }
 
 .wrap-footer-social {
   margin: 72px;
@@ -312,7 +308,6 @@ header .logo-second {
   font-weight: 500;
   margin-bottom: 16px;
   color: var(--WHITE);
-
 }
 
 .list-footer-social {
