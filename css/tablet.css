@@ -179,4 +179,12 @@
     margin-left: 16px;
     fill: var(--WHITE);
   }
+
+  /* Modal */
+  .modal{
+    max-width: 408px;
+    min-width: 408px;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
 }
