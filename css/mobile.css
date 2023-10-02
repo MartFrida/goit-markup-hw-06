@@ -281,7 +281,7 @@ ul.mobile-contacts, ul.mobile-socials{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  /* gap: 32px; */
 
 }
 

@@ -4,9 +4,8 @@
   }
 
   /* header */
-
   .header-container {
-    padding-right: 16px;
+    padding: 0 16px;
   }
 
   .menu-toggle {
@@ -133,18 +132,35 @@
   /* Footer form */
   .footer .container {
     flex-wrap: wrap;
-    justify-content: center;
     flex-direction: row;
+    align-items: flex-start;
+    gap: 72px;
+    padding: 0 96px;
   }
 
   .footer-slogo {
     width: 264px;
   }
 
+  .footer .logo {
+    margin: 0 0 17px;
+  }
+
+  .wrap-footer-social {
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .footer-subscriber-wrapper,
+  .footer-slogo {
+    align-items: baseline;
+  }
+
   .footer-subscriber-form {
     gap: 24px;
     display: flex;
   }
+
 
   .user-name {
     width: 264px;
