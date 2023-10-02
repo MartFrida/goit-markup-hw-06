@@ -58,6 +58,119 @@ header .logo-second {
   stroke: #111;
 }
 
+/* MOBILE MENU  */
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+align-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 796px;
+  top: 0;
+  right: 0;
+  background-color: var(--WHITE);
+  padding: 80px 35px 40px 40px;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+  transition-delay: 150ms;
+}
+
+.menu-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.menu-close.js-close-menu {
+  background-color: var(--WHITE)
+}
+
+.menu-close-svg {
+  fill: var(--NAVY-BLUE);
+  stroke-width: 1px;
+}
+
+.mobile-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mobile-menu-link {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--NAVY-BLUE);
+}
+
+.mobile-menu-link.current {
+  color: var(--OCEAN, #404bbf);
+}
+
+
+
+.mobile-contacts {
+  margin-bottom: 48px;
+  list-style: none;
+}
+
+.mobile-contacts-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mobile-contacts-link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+
+.mobile-contacts-link.accent {
+  color: var(--IRIS);
+  }
+
+.mobile-socials {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+ul.mobile-contacts, ul.mobile-socials{
+  padding-left: 0;
+}
+
+.mobile-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--IRIS);
+  border-radius: 50%;
+}
+
+.mobile-socials-icon {
+  fill: var(--WHITE);
+}
+
+.mobile-socials-icon:hover,
+.mobile-socials-icon:focus {
+  background-color: var(--OCEAN);
+}
+
+
 /* section 1 Hero*/
 .hero {
   background-color: var(--NAVY-BLUE);
@@ -294,7 +407,7 @@ header .logo-second {
   line-height: 1.5;
   color: var(--WHITE);
   letter-spacing: 0.02em;
- }
+}
 
 .wrap-footer-social {
   margin: 72px;
