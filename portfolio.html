@@ -12,7 +12,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desctop.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -22,18 +26,18 @@
       <nav class="navigate">
         <a href="./index.html" class="logo link">
           Web<span class="logo-second">Studio</span></a>
-        <ul class="list menu">
-          <li class="list-item ">
-            <a class="link" href="./index.html">Studio</a>
+        <ul class="list menu-header ">
+          <li class="item-menu">
+            <a class="link " href="./index.html">Studio</a>
           </li>
-          <li class="list-item">
+          <li class="item-menu">
             <a class="link link-item-header" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="list-item"><a class="link" href="">Contacts</a></li>
+          <li class="litem-menu"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
 
-      <address class="adr">
+      <address class="adr adr-header">
         <ul class="list list-address">
           <li class="item-address">
             <a class="link link-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -43,6 +47,14 @@
           </li>
         </ul>
       </address>
+
+      <!-- menu-toggle -->
+      <button type="button" class="header-btn menu-toggle js-open-menu" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <svg class="header-burger" width="32" height="28">
+          <use href="./images/icons.svg#icon-toogle-menu"></use>
+        </svg>
+      </button>
     </div>
   </header>
   <main>

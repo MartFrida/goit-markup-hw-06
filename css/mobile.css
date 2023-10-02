@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 0;
+  padding: 23.5px 16px;
 }
 
 /* NAV */
@@ -49,8 +49,8 @@ header .logo-second {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 22px;
   border: none;
 }
 

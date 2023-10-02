@@ -153,13 +153,10 @@
 
   .footer .container {
     flex-wrap: nowrap;
+    align-items: flex-start;
   }
 
-  .footer-slogo {
-    margin-right: 120px;
-  }
-
-  .link-footer {
+    .link-footer {
     margin-bottom: 16px;
   }
 
@@ -170,5 +167,7 @@
   .logo-second {
     color: var(--CLOUD);
   }
-
+  .wrap-footer-social{
+    margin: 0 72px;
+  }
 }
