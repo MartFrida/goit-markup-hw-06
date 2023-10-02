@@ -744,7 +744,7 @@ ul.mobile-contacts, ul.mobile-socials{
 }
 
 .item-apps {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
 }
 
 .link-app {

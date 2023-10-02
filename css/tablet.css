@@ -5,9 +5,10 @@
 
   /* header */
 
-  .header-container{
+  .header-container {
     padding-right: 16px;
   }
+
   .menu-toggle {
     display: none;
   }
@@ -181,18 +182,23 @@
   }
 
   /* Modal */
-  .modal{
+  .modal {
     max-width: 408px;
     min-width: 408px;
     transform: translate(-50%, -50%) scale(1);
   }
-  
+
   /* Portfolio Page */
 
-    /* FILTERS */
+  /* FILTERS */
   .ul-filter {
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
+  }
+
+  /* list-wrap*/
+  .list-wrap-apps .item-apps {
+    width: calc((100% - 48px) / 2);
   }
 }
