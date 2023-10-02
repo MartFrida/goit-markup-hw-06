@@ -187,4 +187,12 @@
     transform: translate(-50%, -50%) scale(1);
   }
   
+  /* Portfolio Page */
+
+    /* FILTERS */
+  .ul-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
 }
