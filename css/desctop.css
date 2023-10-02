@@ -3,6 +3,84 @@
     width: 1158px;
   }
 
+.menu-toggle{
+  display: none;
+}
+.menu-header {
+  display: flex;
+  gap: 40px;
+}
+.list.menu-header {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+.menu-header .link {
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
+  display: inline-block;
+  padding: 24px 0;
+  font-weight: 500;
+}
+
+.menu-header .link:hover {
+  color: var(--OCEAN);
+}
+
+.link.link-item-header {
+  position: relative;
+  color: var(--OCEAN);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-item-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--OCEAN);
+  border-radius: 2px;
+  width: 100%;
+}
+
+.adr {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+  margin-left: auto;
+}
+
+.item-address {
+  display: flex;
+  gap: 40px;
+}
+
+.link-address {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: var(--OCEAN);
+}
+
+.list-address {
+  gap: 40px;
+}
+
+address a {
+  color: var(--SLATE);
+}
+
+
+/* HERO */
   .hero {
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg_mob@2x.jpg);
