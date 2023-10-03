@@ -132,14 +132,16 @@
   }
 
   /* section 5 Customers  */
-  .customers{
-    padding: 96px 108px;;
+  .customers {
+    padding: 96px 108px;
+    ;
   }
 
-  .customers .container{
+  .customers .container {
     padding: 0;
   }
-  .header-second.header-customers{
+
+  .header-second.header-customers {
     margin: 0;
   }
 
@@ -158,7 +160,6 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 72px;
-    padding: 0;
   }
 
   .footer-slogo {
@@ -239,5 +240,10 @@
   /* list-wrap*/
   .list-wrap-apps .item-apps {
     width: calc((100% - 48px) / 2);
+  }
+
+  .customers .container,
+  footer .container {
+    padding-left: 108px;
   }
 }

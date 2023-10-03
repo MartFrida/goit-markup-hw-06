@@ -192,5 +192,8 @@
     width: calc((100% - 48px) / 3);
   }
 
-
+  .customers .container,
+  footer .container {
+    padding-left: 15px;
+  }
 }
