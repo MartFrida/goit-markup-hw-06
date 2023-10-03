@@ -303,6 +303,7 @@ ul.mobile-contacts, ul.mobile-socials{
 .text-employee,
 .header-employee {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .list-social-employee {
@@ -339,7 +340,7 @@ ul.mobile-contacts, ul.mobile-socials{
 
 /* section 5 Customers  */
 .customers {
-  margin: 96px 16px;
+  padding: 96px 16px;
   /* width: 396px; */
   flex-shrink: 0;
 }

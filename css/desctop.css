@@ -9,6 +9,10 @@
     gap: 40px;
   }
 
+  .link-address {
+    font-size: 16px;
+  }
+
   /* HERO */
   .hero {
     padding: 188px 0;
@@ -71,7 +75,6 @@
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
   }
 
   .item-section-third {
@@ -86,8 +89,7 @@
 
   .section-team .list-team {
     flex-wrap: nowrap;
-    column-gap: 24px;
-    row-gap: 72px;
+
   }
 
   .item-team-card {
@@ -103,7 +105,6 @@
 
   .header-employee {
     text-align: center;
-    margin-bottom: 8px;
   }
 
   .text-employee {
