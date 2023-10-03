@@ -60,6 +60,7 @@
   .section-second .header-card {
     text-align: left;
     font-size: 20px;
+    font-weight: 500;
   }
 
 
@@ -148,10 +149,6 @@
     margin: 0;
     padding: 120px 0;
     /* width: 1128px; */
-  }
-
-  .list-customers {
-    gap: 24px;
   }
 
   .item-customers {
