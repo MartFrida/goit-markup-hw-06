@@ -345,9 +345,8 @@ ul.mobile-socials {
 
 /* section 5 Customers  */
 .customers {
-  padding: 96px 16px;
-  /* width: 396px; */
-  flex-shrink: 0;
+  padding: 96px 0;
+    flex-shrink: 0;
 }
 
 .header-customers {
@@ -536,7 +535,7 @@ ul.mobile-socials {
   left: 50%;
   transform: translate(-50%, -50%) scale(.8);
   max-width: 392px;
-  min-width: 95%;
+  min-width: 100%;
   min-height: 584px;
   background: var(--DAIRY);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
