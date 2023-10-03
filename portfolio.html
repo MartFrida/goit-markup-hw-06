@@ -85,6 +85,7 @@
           <li class="item-apps">
             <a class="link link-app" href="#">
               <div class="image-app">
+
                 <img src="./images/img.jpg" width="360" alt="img">
                 <p class="text-image-app"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                   Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
@@ -99,7 +100,7 @@
           <li class=" item-apps">
             <a class="link link-app" href="">
               <div class="image-app">
-                <img src="./images/img122.jpg" width="360" alt="img">
+                <img src="./images/img_tab.jpg" width="360" alt="img">
                 <p class="text-image-app"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                   Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
@@ -127,7 +128,23 @@
           <li class=" item-apps">
             <a class="link link-app" href="">
               <div class="image-app">
-                <img src="./images/img32.jpg" width="360" alt="img">
+                <!-- <img src="./images/img32.jpg" width="360" alt="img"> -->
+
+                <picture>
+                  <!-- Desktop screen -->
+                  <source media="(min-width: 1158px)" srcset="
+                      ./images/drive_desk.jpg,
+                      ./images/drive_desk@2x.jpg" />
+                  <!-- Tablet screen -->
+                  <source media="(min-width: 768px)"
+                    srcset="./images/drive_tab.jpg, ./images/drive_tab@2x.jpg" />
+                  <!-- Mobile screen -->
+                  <source media="(max-width: 767px)"
+                    srcset="./images/drive_mob.jpg, ./images/drive_mob@2x.jpg" />
+                  <img class="products-ill" src="./images/drive_mob.jpg" alt="Dark chocolate with orange"
+                    width="width=360"  />
+                </picture>
+
                 <p class="text-image-app"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                   Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
               </div>
