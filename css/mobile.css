@@ -174,11 +174,17 @@ ul.mobile-contacts, ul.mobile-socials{
 /* section 1 Hero*/
 .hero {
   background-color: var(--NAVY-BLUE);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg_mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 112px 0;
+}
+
+@media only screen and (max-width:767.98px) and (min-resolution:192dpi){
+  .hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg_mob@2x.jpg);
+  }
 }
 
 .hero-header {

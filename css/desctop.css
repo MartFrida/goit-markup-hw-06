@@ -12,7 +12,11 @@
   /* HERO */
   .hero {
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg_mob@2x.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_desk.jpg);
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -172,9 +176,9 @@
     color: var(--CLOUD);
   }
 
-  
 
-  
+
+
 
   /* Portfolio Page */
 
